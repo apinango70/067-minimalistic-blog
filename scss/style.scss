@@ -1,0 +1,53 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+// Font
+$font-title: 'Montserrat', sans-serif;
+$font-body: 'Montserrat', sans-serif;
+$font-logo: 'Julius Sans One', sans-serif;
+
+
+// Colors
+$main-color: #b569af;
+$secondary-color: #1b252d;
+$gray1-color: #4d4d4d;
+$gray2-color: #707070;
+$gray3-color: #f1f1f1;
+
+// Import
+@import 'mobile';
+
+// START HERE
+// Main Styling
+html, 
+body {
+  font-family: $font-body;
+  background: $gray3-color;
+}
+
+// General Styling
+.text-main {
+  color: $main-color;
+}
+
+.btn-outline-main {
+  border: 1px solid $main-color;
+  color: $main-color;
+}
+
+.btn-main {
+  background: $main-color;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 10px;
+}
+
+.logo {
+  font-family: $font-logo;
+}
+

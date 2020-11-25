@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+/* Smartphones */
+/* Tablet */
+/* Normal */
+/* Widescreen */
+/* Landscape */
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f1f1f1;
+}
+
+.text-main {
+  color: #b569af;
+}
+
+.btn-outline-main {
+  border: 1px solid #b569af;
+  color: #b569af;
+}
+
+.btn-main {
+  background: #b569af;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 10px;
+}
+
+.logo {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
